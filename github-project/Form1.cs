@@ -20,9 +20,6 @@ namespace github_project
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello Fellow");
-            Form2 f2 = new Form2();
-            this.Hide();
-            f2.Show();
         }
     }
 }
